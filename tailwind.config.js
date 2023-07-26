@@ -9,15 +9,9 @@ export default {
         'Mandalin': ['Mandalin', 'sans-serif'],
       },
       colors: {
-        'Teteu': '#15CF81',
-        'Fundo': '#1D1C1D',
-        gray: {
-          '100': '#D9D9D9',
-          '300': '#C3C3C3',
-          '400': '#8D8D8D',
-          '600': '#7B7B7B',
-          '700': '#313031'
-        }
+        'Background-1': '#859F3D',
+        'Background-2': '#F1F4DF',
+        'Typography': '#091938'
       }
     },
   },
