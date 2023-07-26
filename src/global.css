@@ -11,6 +11,14 @@
   src: url('../src/fonts/Poppins-Regular.ttf')
 }
 @font-face {
-  font-family: 'Mandali';
+  font-family: 'Poppinsbold';
+  src: url('../src/fonts/Poppins-Bold.ttf')
+}
+@font-face {
+  font-family: 'Poppinssemi';
+  src: url('../src/fonts/Poppins-SemiBold.ttf')
+}
+@font-face {
+  font-family: 'Mandalin';
   src: url('../src/fonts/Mandali-Regular.ttf')
 }

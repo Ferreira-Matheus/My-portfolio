@@ -6,12 +6,15 @@ export default {
       fontFamily: {
         'Roboto': ['Roboto', 'sans-serif'],
         'Poppins': ['Poppins', 'sans-serif'],
+        'PoppinsBold': ['Poppinsbold', 'sans-serif'],
+        'PoppinsSemi': ['Poppinssemi', 'sans-serif'],
         'Mandalin': ['Mandalin', 'sans-serif'],
       },
       colors: {
-        'Background-1': '#859F3D',
-        'Background-2': '#F1F4DF',
-        'Typography': '#091938'
+        'Palette-1': '#859F3D',
+        'Palette-2': '#F1F4DF',
+        'Palette-3': '#091938',
+        'Palette-4': '#4F5853',
       }
     },
   },
