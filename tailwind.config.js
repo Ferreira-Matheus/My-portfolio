@@ -4,9 +4,9 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'firacode': ['FiraCode', 'sans-serif'],
-        'PlexMono': ['IBM Plex Mono', 'sans-serif'],
-        'PTSans': ['PT Sans', 'sans-serif'],
+        'Roboto': ['Roboto', 'sans-serif'],
+        'Poppins': ['Poppins', 'sans-serif'],
+        'Mandalin': ['Mandalin', 'sans-serif'],
       },
       colors: {
         'Teteu': '#15CF81',
