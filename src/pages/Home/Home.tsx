@@ -1,3 +1,4 @@
+import {Link} from 'react-router-dom'
 import Flag from "../../components/accessories/flags/Flag"
 import Thumb from "../../components/accessories/thumb/Thumb"
 
@@ -12,8 +13,12 @@ const Home = () => {
         <Thumb title='Origamid - Dogs' paragraph="Projeto final do curso de ReactJS."/>
         <Thumb title='PartyTime' paragraph="Projeto com inpiração de um curso que vi na internet."/>
         </div>
-        <div>
-        <a href="/" className=" text-2xl text-Palette-3 font-Poppins border-l-4 border-Palette-3 pl-2">Sobre mim</a>
+        {/* <div>
+        <Link to="/about" className=" text-2xl text-Palette-3 font-Poppins border-l-4  border-Palette-3 pl-2">Sobre mim</Link>
+        </div> */}
+        <div className="flex flex-row gap-2 pl-2">
+          <span className=" w-1 h-8 bg-Palette-3 rounded block"></span>
+          <Link to='/about' className=" text-2xl font-Poppins text-Palette-3">Sobre mim</Link>
         </div>
       </div>
       <div className=" ml-[120px] mt-10">

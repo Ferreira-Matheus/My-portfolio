@@ -1,6 +1,7 @@
-import Flag from "./components/accessories/flags/Flag"
+import { BrowserRouter, Routes, Route} from 'react-router-dom'
 import { Header } from "./components/header/Header"
 import Home from "./pages/Home/Home"
+import About from './pages/About/About'
 
 function App() {
 
@@ -11,8 +12,13 @@ function App() {
         <span className="w-[1px] h-screen bg-Palette-4/50"></span>
         <span className="w-[1px] h-screen bg-Palette-4/50"></span>
       </div>
-      <Header/>
-      <Home/>
+      <BrowserRouter>
+        <Header/>
+        <Routes>
+          <Route exact path='/' element={<Home/>}/>
+          <Route path='/about' element={<About/>} />
+        </Routes>
+      </BrowserRouter>
     </div>
   )
 }

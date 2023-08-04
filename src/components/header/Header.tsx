@@ -1,7 +1,9 @@
+import { Link } from "react-router-dom"
+
 export const Header = () => {
   return (
       <div className="flex justify-between py-4 bg-inner z-10 h-20">
-        <h1 className=" text-2xl text-Palette-2 font-Mandalin pl-10">Matheus Ferreira</h1>
+        <Link to='/' className=" text-2xl text-Palette-2 font-Mandalin pl-10">Matheus Ferreira</Link>
         <div className=" flex flex-col items-end">
           <span className=" flex gap-3 text-Palette-2 font-PoppinsSemi text-base items-center">
             Projetos
