@@ -5,9 +5,9 @@ import Thumb from "../../components/accessories/thumb/Thumb"
 const Home = () => {
   return (
     <>
-    <div className="z-10 flex py-[100px] w-full h-full">
-      <div className=" w-[800px] h-full bg-Palette-2 py-[3.8rem] px-10 flex flex-col">
-        <div className=" flex  flex-col items-end gap-5">
+    <div className=" flex py-[100px] w-full h-full bg-Palette-1">
+      <div className=" w-[800px] h-full bg-Palette-2 py-[3.8rem] px-10 flex flex-col z-20">
+        <div className=" flex  flex-col items-end gap-5 z-20">
         <Thumb title='Origamid -Wild Life' paragraph="Projeto feito no curso de JavaScript para iniciantes."/>
         <Thumb title='Rocketseat - Desafio CSS' paragraph="Projeto para testar habilidades com CSS."/>
         <Thumb title='Origamid - Dogs' paragraph="Projeto final do curso de ReactJS."/>
@@ -22,10 +22,10 @@ const Home = () => {
         </div>
       </div>
       <div className=" ml-[120px] mt-10">
-      <Flag title="Projetos" paragraph="Alguns Projetos que desenvolvi ou fiz com acompanhamento."/>
+      <Flag title="Projetos" paragraph="Alguns Projetos que desenvolvi ou fiz com acompanhamento"/>
       </div>
     </div>
-    <div className=" w-full text-center py-5">
+    <div className=" w-full text-center py-5 bg-Palette-1">
     <span className=" font-Poppins text-Palette-4 text-sm">Teteu © 2023</span>
     </div>
     </>
